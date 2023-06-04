@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project</title>
+
+    <style>
+        body
+        {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+    <h1 >Weather Analyzer</h1>
+    <hr>
+    <br>
+    <br>
+    <form action="/" method="post">
+        <label for="cityName">Enter city</label>
+        <input type="text" name="cityName">
+        <br><br>
+        <label for="unit">Select a unit:</label>
+        <select name="unit">
+            <option name="f">Fahrenheit</option>
+            <option name="k">Kelvin</option>
+            <option name="c" selected>Celsius</option>
+        </select>
+        <br><br>
+        <button type="submit">ENTER</button>
+    </form>
+    <p class="mt-5 mb-3 text-body-secondary">&copy; sharifperwez.bangalore@gmail.com</p>
+</body>
+</html>
