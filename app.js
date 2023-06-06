@@ -11,7 +11,7 @@ app.get("/",function(req,res)
     res.sendFile(__dirname+"/index.html");
 })
 
-app.post("/",function(req,res)
+app.post("/Weather-Analyzer",function(req,res)
 {
 
     const query = req.body.cityName;
